@@ -1,0 +1,11 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.backup
+.terraform/
+*.tfvars
+*.pem
+*.plan
+*.terraform.lock.hcl
+.terraform.lock.hcl
+*.out
