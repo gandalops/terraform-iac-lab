@@ -1,0 +1,8 @@
+# Ignore state & sensitive files
+*.tfstate
+*.tfstate.*
+.terraform/
+*.plan
+terraform.tfvars
+dev.tfvars
+prod.tfvars
