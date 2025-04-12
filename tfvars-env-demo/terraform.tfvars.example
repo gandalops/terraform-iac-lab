@@ -1,0 +1,5 @@
+ami_id             = "ami-xxxxxxxxxxxxxxx"
+instance_type      = "t2.micro"
+key_name           = "your-key"
+environment        = "env-name"
+monitoring_enabled = false
