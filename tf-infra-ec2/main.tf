@@ -61,7 +61,7 @@ resource "aws_security_group" "allow_ssh" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["192.168.178.30/32"]         # Replace with your IP or IP range
+    cidr_blocks = [var.ssh_allowed_cidr]       # Replace with your IP or IP range
     description = "Allow SSH from trusted IP"
   }
 
