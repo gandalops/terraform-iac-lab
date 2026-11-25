@@ -21,3 +21,8 @@ variable "ami_id" {
 variable "instance_type" {
   default = "t2.micro"
 }
+
+variable "ssh_allowed_cidr" {
+  description = "Single IP address allowed to SSH, in CIDR notation, for example 203.0.113.10/32"
+  type        = string
+}
